@@ -3,4 +3,8 @@
 }
 body {
     font-family: Ariel, Helvetica, sans-serif;
+    margin: 0;
+}
+.main-header {
+    background-color: burlywood;
 }
