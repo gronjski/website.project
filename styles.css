@@ -7,4 +7,18 @@ body {
 }
 .main-header {
     background-color: burlywood;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.navigation {
+    grid-column-start: 3;
+    align-self: center;
+}
+.navigation a {
+    padding:2px;
+    text-decoration: none;
+    color: black;
+}
+.navigation a:hover {
+    background-color: bisque;
 }
