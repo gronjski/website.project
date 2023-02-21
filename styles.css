@@ -24,3 +24,15 @@ body {
 .navigation a:hover {
     background-color: bisque;
 }
+.banner {
+    background-image: url("shubham-dhage-w06BFh5bRRA-unsplash.jpg");
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.banner h2 {
+    font-size: 300%;
+    color: rgb(255, 132, 0);
+}
